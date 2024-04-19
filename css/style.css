@@ -1,7 +1,11 @@
 @import url("https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Open+Sans:wght@400;600;700&display=swap");
+:root {
+  --main-bg-color: #1cb5e1; 
+}
+
 body {
   font-family: "Open Sans", sans-serif;
-  color: #0c0c0c;
+  color: var(--main-bg-color);
   background-color: #ffffff;
   overflow-x: hidden;
 }
@@ -466,7 +470,7 @@ a:focus {
   margin-top: 45px;
   border-radius: 5px;
   padding: 20px 15px;
-  background-color: #222831;
+  background-color: var(--main-bg-color);
   color: #ffffff;
 }
 
@@ -553,7 +557,7 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #222831;
+  background-color: var(--main-bg-color);
   color: #ffffff;
 }
 
@@ -565,7 +569,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, var(--main-bg-color) 25px);
 }
 
 .food_section .box .img-box {
@@ -670,7 +674,7 @@ a:focus {
 }
 
 .about_section {
-  background: #222831;
+  background: var(--main-bg-color);
   color: #ffffff;
 }
 
@@ -842,7 +846,7 @@ a:focus {
 }
 
 .client_section .box .detail-box {
-  background-color: #222831;
+  background-color: var(--main-bg-color);
   color: #ffffff;
   padding: 25px 25px 15px 25px;
   border-radius: 5px;
@@ -955,7 +959,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-color: var(--main-bg-color);
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -1032,7 +1036,7 @@ a:focus {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  color: #222831;
+  color: var(--main-bg-color);
   width: 30px;
   height: 30px;
   border-radius: 100%;
